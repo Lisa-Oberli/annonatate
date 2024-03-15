@@ -1,0 +1,86 @@
+---
+added: 2024-03-15 09&#58;01&#58;35.863061
+thumbnail: https://lisa-oberli.github.io/annonatate/img/derivatives/iiif/gswaltya1115/GSWALTYA1115/full/160,/0/default.jpg
+title: GS-WALTY-A-1-115
+user: Lisa-Oberli
+---
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://lisa-oberli.github.io/annonatate/img/derivatives/iiif/gswaltya1115/manifest.json",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "GS-WALTY-A-1-115"
+    ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "en": [
+          "rights"
+        ]
+      },
+      "value": {
+        "en": [
+          "SNB"
+        ]
+      }
+    }
+  ],
+  "summary": {
+    "en": [
+      "Geriefter Trichterling, Kaffeebrauner Trichterling. Teil von&#58; Pilztafelwerk Band A, 115"
+    ]
+  },
+  "behavior": [
+    "paged"
+  ],
+  "viewingDirection": "left-to-right",
+  "items": [
+    {
+      "id": "https://lisa-oberli.github.io/annonatate/img/derivatives/iiif/gswaltya1115/canvas/gswaltya1115-1",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "GS-WALTY-A-1-115"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://lisa-oberli.github.io/annonatate/img/derivatives/iiif/gswaltya1115/GSWALTYA1115/full/160,/0/default.jpg",
+          "type": "thumbnail"
+        }
+      ],
+      "height": 972,
+      "width": 1280,
+      "items": [
+        {
+          "id": "https://lisa-oberli.github.io/annonatate/img/derivatives/iiif/gswaltya1115/page/p1/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://lisa-oberli.github.io/annonatate/img/derivatives/iiif/gswaltya1115/annotation/p0001-image",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://lisa-oberli.github.io/annonatate/img/derivatives/iiif/gswaltya1115/GSWALTYA1115/full/full/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 972,
+                "width": 1280,
+                "service": [
+                  {
+                    "id": "https://lisa-oberli.github.io/annonatate/img/derivatives/iiif/gswaltya1115/GSWALTYA1115",
+                    "type": "ImageService2",
+                    "profile": "level1"
+                  }
+                ]
+              },
+              "target": "https://lisa-oberli.github.io/annonatate/img/derivatives/iiif/gswaltya1115/canvas/gswaltya1115-1"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
